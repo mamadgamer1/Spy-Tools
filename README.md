@@ -21,7 +21,7 @@
 
 ```ls```
 
-```pip install -r requirements```
+```pip install -r requirements.txt```
 
 ```python3 Spy.py```
 
