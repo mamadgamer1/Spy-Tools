@@ -79,7 +79,7 @@ if chs ==1:
     print("Spy Friends Has Been Picked!\n")
     print(Fore.RED + "")
     username = input("\nEnter Target UserName: ")
-    sites = ["http://github.com","http://instagram.com","https://www.dalfak.com","https://www.namasha.com","https://www.discord.com","http://aparat.com","http://www.youtube.com/c","http://www.facebook.com/"]
+    sites = ["http://github.com","http://instagram.com","https://www.dalfak.com","https://www.namasha.com","https://www.discord.com","http://aparat.com","https://www.youtube.com/c","https://www.facebook.com"]
     for site in sites:
             url = site + "/{}".format(username)
             response = get(url)
